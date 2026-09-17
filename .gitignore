@@ -1,0 +1,6 @@
+.*_model_log_.mat
+*.asv
+slprj/
+*.slxc
+*.autosave
+.workbuddy/

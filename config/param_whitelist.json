@@ -1,0 +1,25 @@
+{
+  "common": ["SampleTime", "OutDataTypeStr"],
+  "ignore": [
+    "Position",
+    "FontName",
+    "FontSize",
+    "FontWeight",
+    "FontAngle",
+    "ForegroundColor",
+    "BackgroundColor",
+    "NamePlacement",
+    "DropShadow",
+    "AttributesFormatString",
+    "Selected"
+  ],
+  "byBlockType": {
+    "Gain": ["Gain"],
+    "Constant": ["Value"],
+    "Inport": ["Port", "OutDataTypeStr", "Unit"],
+    "Outport": ["Port", "OutDataTypeStr", "Unit"],
+    "SubSystem": ["TreatAsAtomicUnit"],
+    "Integrator": ["InitialCondition", "GainValue"],
+    "TransferFcn": ["Numerator", "Denominator"]
+  }
+}
